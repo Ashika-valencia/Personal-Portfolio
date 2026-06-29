@@ -55,17 +55,7 @@ export function Contact() {
               </div>
             </div>
 
-            <div className="glass-card p-6 rounded-2xl flex items-start space-x-4 hover:border-accent/50 transition-colors group">
-              <div className="p-3 bg-accent/10 rounded-xl text-accent group-hover:scale-110 transition-transform">
-                <Phone size={24} />
-              </div>
-              <div>
-                <h4 className="text-sm font-medium text-muted-foreground mb-1 uppercase tracking-wider">Phone</h4>
-                <a href="tel:+919741560336" className="text-lg font-semibold text-foreground hover:text-accent transition-colors">
-                  +91 97415 60336
-                </a>
-              </div>
-            </div>
+
 
             <div className="glass-card p-6 rounded-2xl flex items-start space-x-4 hover:border-emerald-500/50 transition-colors group">
               <div className="p-3 bg-emerald-500/10 rounded-xl text-emerald-500 group-hover:scale-110 transition-transform">

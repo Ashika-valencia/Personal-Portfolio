@@ -46,22 +46,6 @@ export function About() {
               </p>
             </div>
 
-            {/* Education Box */}
-            <div className="mt-auto pt-6">
-              <div className="p-6 glass-card border border-primary/20 rounded-2xl bg-gradient-to-br from-primary/5 to-accent/5 hover:border-primary/50 transition-colors">
-                <h3 className="text-xl font-bold text-foreground mb-4 flex items-center">
-                  <span className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-3 text-xl">
-                    🎓
-                  </span>
-                  Education
-                </h3>
-                <div className="pl-13 border-l-2 border-primary/20 ml-5 pl-8 py-1">
-                  <h4 className="text-lg font-semibold text-foreground">CHRIST (Deemed to be University)</h4>
-                  <p className="text-sm text-primary font-medium mb-2">B.Tech in Artificial Intelligence & Machine Learning</p>
-                  <p className="text-sm">Pursuing Honors in Data Analytics</p>
-                </div>
-              </div>
-            </div>
           </motion.div>
 
           <div className="grid grid-cols-2 gap-4 md:gap-6">
